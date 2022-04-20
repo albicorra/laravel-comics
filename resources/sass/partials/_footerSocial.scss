@@ -1,0 +1,37 @@
+.footer-social{
+    background-color: #303030;
+    height: 110px;
+    
+    .container.social-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .sign-up{
+            padding: 15px;
+            text-transform: uppercase;
+            border: 2px solid #0682F9;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .social{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      
+            .icon{
+                cursor: pointer;
+            }
+        }
+
+        .social div:first-child{
+            color: #0682F9;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

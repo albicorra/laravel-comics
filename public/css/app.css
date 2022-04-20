@@ -1,3 +1,97 @@
-body{
-    background-color: antiquewhite;
+.footer-container {
+  height: 370px;
+  background-image: asset("img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
+
+.footer-container .container.info {
+  background-image: asset("img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 80% center;
+  height: 100%;
+}
+
+.footer-container .footer-info {
+  width: 33.3%;
+  padding-top: 40px;
+  display: flex;
+}
+
+.footer-container .col-info {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.footer-container .title-footer {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.footer-container .item-footer {
+  color: #959595;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.footer-social {
+  background-color: #303030;
+  height: 110px;
+}
+
+.footer-social .container.social-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-social .container.social-icon .sign-up {
+  padding: 15px;
+  text-transform: uppercase;
+  border: 2px solid #0682F9;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-social .container.social-icon .social {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social .container.social-icon .social .icon {
+  cursor: pointer;
+}
+
+.footer-social .container.social-icon .social div:first-child {
+  color: #0682F9;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  display: contents;
+  list-style: none;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+

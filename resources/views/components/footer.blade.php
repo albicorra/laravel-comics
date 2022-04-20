@@ -1,5 +1,5 @@
 <div class="footer-container">
-    <div class="container-info">
+    <div class="container info">
         <div class="footer-info">
 
             <div class="col-info">
@@ -47,7 +47,7 @@
 </div>
 
 <div class="footer-social">
-    <div class="container">
+    <div class="container social-icon">
 
         <div class="sign-up">
             Sign-Up Now
