@@ -56,8 +56,20 @@
         <div class="social">
             <div>Follow Us</div>
 
-            <div class="icon" v-for="(el, i) in social" :key="i">
-                <img :src="el.icon" alt="">
+            <div class="icon">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+            </div>
+            <div class="icon">
+                <img src="{{asset('img/footer-twitter.png')}}" alt="">
+            </div>
+            <div class="icon">
+                <img src="{{asset('img/footer-youtube.png')}}" alt="">
+            </div>
+            <div class="icon">
+                <img src="{{asset('img/footer-pinterest.png')}}" alt="">
+            </div>
+            <div class="icon">
+                <img src="{{asset('img/footer-periscope.png')}}" alt="">
             </div>
         </div>
 
