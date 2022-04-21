@@ -62,7 +62,7 @@ header.container .nav li a:hover {
 }
 
 .banner {
-  background-image: asset("img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,13 +166,13 @@ header.container .nav li a:hover {
 
 .footer-container {
   height: 370px;
-  background-image: asset("img/footer-bg.jpg");
+  background-image: url("/img/footer-bg.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .footer-container .container.info {
-  background-image: asset("img/dc-logo-bg.png");
+  background-image: url("/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 80% center;

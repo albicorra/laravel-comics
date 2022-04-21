@@ -1,11 +1,11 @@
 .footer-container{
     height: 370px;
-    background-image: asset('img/footer-bg.jpg');
+    background-image: url('/img/footer-bg.jpg');
     background-position: center ;
     background-size: cover;
 
     .container.info{
-      background-image: asset('img/dc-logo-bg.png');
+      background-image: url("/img/dc-logo-bg.png");
       background-repeat: no-repeat;
       background-size: auto;
       background-position: 80% center;
