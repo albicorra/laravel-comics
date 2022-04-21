@@ -1,0 +1,93 @@
+.container-small{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 4%;
+    justify-content: center;
+
+    .wrapper-description{
+        width: 68%;
+
+        h1{
+            color: #003F5E;
+        }
+
+        .container-check{
+            margin: 10px 0px;
+            border-radius: 2px;
+            background-color: #55ba59;
+            display: flex;
+            align-items: center;
+
+            .wrapper-check{
+                padding: 10px;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid black;
+                border-right: 1px solid black;
+                color: #BAFD9C;
+
+                span{
+                    color: #fff;
+                }
+            }
+
+            .check-button{
+                border: none;
+                width: 30%;
+                background-color: transparent;
+                font-size: 14px;
+                padding: 10px;
+                cursor: pointer;
+                border-bottom: 1px solid black;
+                color: #fff;
+            }
+
+        }
+
+        .description{
+            font-size: 14px;
+        }
+    }
+}
+
+.bg-section{
+    background-color: #F6F6F6;
+
+    .container-small.info{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        color: #003F5E;
+
+        .box-wrapper{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+
+            .box-info{
+                padding: 10px 0px;
+                border-bottom: 1px solid #E3E3E3;
+                display: flex;
+                column-gap: 4%;
+
+                .sub-title{
+                    width: 38%;
+                    font-size: 14px;
+                }
+
+                .box{
+                    width: 58%;
+                    font-size: 12px;
+
+                    span{
+                        color: #2FA9D9;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

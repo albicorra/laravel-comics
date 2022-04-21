@@ -22,9 +22,15 @@ ul{
     margin: 0 auto;
 }
 
+.container-small{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 @import 'partials/header';
 @import 'partials/mainBanner';
 @import 'partials/mainSeries';
 @import 'partials/mainShop';
 @import 'partials/footerInfo';
 @import 'partials/footerSocial';
+@import 'partials/productDetail'

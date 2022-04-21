@@ -21,6 +21,11 @@ ul {
   margin: 0 auto;
 }
 
+.container-small {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 header.container {
   display: flex;
   justify-content: space-between;
@@ -234,5 +239,99 @@ header.container .nav li a:hover {
   color: #0682F9;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.container-small {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  gap: 4%;
+  justify-content: center;
+}
+
+.container-small .wrapper-description {
+  width: 68%;
+}
+
+.container-small .wrapper-description h1 {
+  color: #003F5E;
+}
+
+.container-small .wrapper-description .container-check {
+  margin: 10px 0px;
+  border-radius: 2px;
+  background-color: #55ba59;
+  display: flex;
+  align-items: center;
+}
+
+.container-small .wrapper-description .container-check .wrapper-check {
+  padding: 10px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  color: #BAFD9C;
+}
+
+.container-small .wrapper-description .container-check .wrapper-check span {
+  color: #fff;
+}
+
+.container-small .wrapper-description .container-check .check-button {
+  border: none;
+  width: 30%;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  color: #fff;
+}
+
+.container-small .wrapper-description .description {
+  font-size: 14px;
+}
+
+.bg-section {
+  background-color: #F6F6F6;
+}
+
+.bg-section .container-small.info {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  color: #003F5E;
+}
+
+.bg-section .container-small.info .box-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.bg-section .container-small.info .box-wrapper .box-info {
+  padding: 10px 0px;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+  -moz-column-gap: 4%;
+       column-gap: 4%;
+}
+
+.bg-section .container-small.info .box-wrapper .box-info .sub-title {
+  width: 38%;
+  font-size: 14px;
+}
+
+.bg-section .container-small.info .box-wrapper .box-info .box {
+  width: 58%;
+  font-size: 12px;
+}
+
+.bg-section .container-small.info .box-wrapper .box-info .box span {
+  color: #2FA9D9;
+  cursor: pointer;
 }
 

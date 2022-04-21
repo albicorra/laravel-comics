@@ -13,14 +13,16 @@
     <div class="main-series">
         <div class="container series">
             
-            @foreach ($series as $key)
+            @foreach ($series as $key => $value)
                 <div class="wrapper-series">
-                    <div class="series-thumb">
-                        <img src="{{$key['thumb']}}" alt="">
-                    </div>
-                    <div class="series-title">
-                        <h2>{{$key['title']}}</h2>
-                    </div>
+                    <a href="/{{$key}}">
+                        <div class="series-thumb">
+                            <img src="{{$value['thumb']}}" alt="">
+                        </div>
+                        <div class="series-title">
+                            <h2>{{$value['title']}}</h2>
+                        </div>
+                    </a>
                 </div>
             @endforeach 
 

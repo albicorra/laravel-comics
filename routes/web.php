@@ -52,6 +52,7 @@ Route::get('/{id}', function ($id) {
     abort_if( !isset($series[$id]), 404 );
     /* dd($id); */
 
+    
     $serie = $series[$id];
 
     return view('productDetail')
