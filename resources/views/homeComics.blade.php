@@ -11,25 +11,25 @@
     </div>
 
     <div class="main-series">
-        <div class="container-series">
-            <div class="series">
-
-                @foreach ($series as $key)
+        <div class="container series">
+            
+            @foreach ($series as $key)
+                <div class="wrapper-series">
                     <div class="series-thumb">
                         <img src="{{$key['thumb']}}" alt="">
                     </div>
                     <div class="series-title">
                         <h2>{{$key['title']}}</h2>
                     </div>
-                @endforeach 
+                </div>
+            @endforeach 
 
-            </div>
             <div class="button-more">Load More</div>
         </div>
     </div>
 
     <div class="shop-dc">
-        <div class="container">
+        <div class="container shop">
             <ul>
                 @foreach ($shopDc as $item)
                     <li>

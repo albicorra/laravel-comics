@@ -1,0 +1,22 @@
+.banner{
+    background-image: asset('img/jumbotron.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+
+    .title-section{
+        color: #fff;
+        background-color: #0682F9;
+        line-height: 40px;
+        padding: 0px 30px;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-50%);
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}

@@ -1,12 +1,11 @@
 //
-@import 'partials/footerInfo';
-@import 'partials/footerSocial';
-@import 'partials/header';
+@import 'partials/fontFamily';
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img{
@@ -22,3 +21,10 @@ ul{
     width: 1300px;
     margin: 0 auto;
 }
+
+@import 'partials/header';
+@import 'partials/mainBanner';
+@import 'partials/mainSeries';
+@import 'partials/mainShop';
+@import 'partials/footerInfo';
+@import 'partials/footerSocial';
