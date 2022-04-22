@@ -1,3 +1,45 @@
+.image-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    .bg-image{
+        background-image: url("/img/jumbotron.jpg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+
+    .image{
+        width: 150px;
+        position: absolute;
+        top: 45%;
+        right: 60%;
+        border: 1px solid #fff;
+
+        img{
+            display: block;
+        }
+
+        .view{
+            height: 15px;
+            background-color: #00A9D9;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .blue-band{
+        height: 100px;
+        background-color: #0282F9;
+    }
+}
+
 .container-small{
     display: flex;
     padding: 50px;

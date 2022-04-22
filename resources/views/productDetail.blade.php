@@ -2,7 +2,16 @@
 
 @section('pageTitle', $serie['title'])
 
-@section('mainContent')    
+@section('mainContent')  
+
+    <section class="image-section">
+        <div class="bg-image"></div>
+        <div class="image">
+            <img src="{{$serie['thumb']}}" alt="">
+            <div class="view">View Gallery</div>
+        </div>
+        <div class="blue-band"></div>
+    </section>
     
     <section>
         <div class="container-small">
